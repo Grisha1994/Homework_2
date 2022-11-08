@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header {
+    height: 180px;
+    background: #EEEFF1;
+    padding: 60px 0;
+}
+
+.header-wrapper {
+    width: 60%;
+    margin: auto; 
+    display: flex;
+    justify-content: space-between; 
+    align-items:center; 
+}
+
+a {
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 40px;
+
+}
+
+
+/* design */
+
+.design {
+    padding: 80px 0 145px;
+    background: #EEEFF1;
+
+}
+
+.design-wrapper {
+    width: 55%;
+    margin: auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;  
+}
+
+.design-image {
+    width: 35%;
+    margin-right: 130px;  
+}
+
+h1 {
+    font-size: 48px;
+}
+
+p {
+    margin: 60px auto;
+    font-size: 16px;
+    color: #727272; 
+}
+
+input[type="submit-me"] {
+    display: block;
+    height: 65px;
+    background: #34547A;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    padding: 0 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* about-me */
+.about-me {
+    background: #E5E5E5;
+    padding: 120px 0 100px;
+}
+
+.about-me-title {
+    font-size: 32px;
+    text-align: center;
+}
+
+.about-me-descr {
+    font-size: 16px;
+    width: 30%;
+    text-align: center; 
+    margin: 50px auto 0px;  
+}
+
+
+/* form project40 */
+.project40{
+    padding: 100px 0 100px;
+    background: #34547A;
+}
+.project40-wrapper { 
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.project40-wrapper img {
+    width: calc(15% - 50px);
+    margin-right: 50px;
+    
+}
+
+/* moi navyiki */
+.skills {
+    padding: 100px 0;
+}
+
+.skills-wrapper {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.skills-info {
+    width: 40%;
+}
+.skills-title {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.skill {
+    margin-bottom: 30px;
+}
+
+.skill-name {
+    color: #727272;
+    margin-bottom: 20px;
+}
+
+.skill-scale {
+    height: 5px;
+    background: #C4C4C4;
+}
+
+.skill-scale-iternal {
+    width: 80%;
+    height: 5px;
+    background: #34547A;
+}
+
+.skill-image {
+    width: 50%;
+    object-fit: cover;
+}
+
+/* kak ja rabotayuo */
+.process {
+    background: #EEEFF1;
+    padding: 100px 0 100px;
+}
+
+.process-title {
+    font-size: 32px;
+    text-align: center;
+}
+.process-descr {
+    width: 30%;
+    color: #727272;
+    text-align: center; 
+    margin: 50px auto 60px;  
+}
+
+.process-video {
+    display: block;
+    margin: auto;
+    width: 60%; 
+    aspect-ratio: 16/9; 
+}
+
+/* projects */
+.projects {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.projects-item {
+    width: 25%;
+    aspect-ratio: 1/1;
+    background-size: cover;
+}
+
+.sticker {
+    background-image: url(./images/sticker.png);
+}
+
+.laptop {
+    background-image: url(./images/laptop.png);
+}
+
+.projects-item-hover {
+    height: 100%;
+    background: linear-gradient(0deg, rgba(52, 84, 122, 0.8), rgba(52, 84, 122, 0.8));
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    
+}
+
+.projects-item-hover:hover {
+    opacity: 1;
+}
+
+/* microsoft */
+.microsoft{
+    padding: 70px 0 100px;
+}
+.microsoft-wrapper { 
+    width: 60%;
+    margin: auto;
+    display: flex;
+}
+
+.microsoft-wrapper img {
+    width: calc(25% - 30px);
+    margin-right: 30px;
+    
+}
+
+/* forma */
+.form {
+    background: #EEEFF1;
+    padding: 100px 0;
+}
+
+.form-title {
+    font-size: 32px;
+    text-align: center;
+}
+
+.form-descr {
+    font-size: 16px;
+    width: 30%;
+    text-align: center; 
+    margin: 50px auto 65px;  
+}
+
+form {
+    width: 30%;
+    margin: auto;
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    margin: 20px auto 50px;
+    padding: 20px;
+}
+.form-control {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+input[type="text"], input[type="email"] {
+    width: 45%;
+    padding: 20px;
+    border: none;
+    outline: none;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: auto;
+    height: 55px;
+    background: #34547A;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    padding: 0 45px;
+    text-transform: uppercase;
+
+}
+
+
